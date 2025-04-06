@@ -9,11 +9,21 @@ In this version of `HS-BLASTN`, we employ many ideas from `MECAT`. We no longer 
 HS-BLASTN is written in C and C++, open source and released under GPLv3.
 
 ## Download and Install
+### Linux
 ```shell
  $ git clone https://github.com/chenying2016/queries.git
  $ cd hs-blastn-src
  $ make
  ```
+ ### MacOS
+```shell
+ $ git clone https://github.com/chenying2016/queries.git
+ $ cd hs-blastn-src
+ #### install LLVM Clang first via homebrew
+ $ CC="$(brew --prefix)/opt/llvm/bin/clang" CXX="$(brew --prefix)/opt/llvm/bin/clang" make
+ ```
+
+
 After compilation, the executable file `hs-blastn` is found is `queries/Linux-amd64/bin·.
 
 ## How to use
