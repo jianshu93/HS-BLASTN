@@ -1,3 +1,0 @@
-../Darwin-arm64/obj/libhbn.a/ncbi_blast/str_util/ncbistr.o: \
-  ncbi_blast/str_util/ncbistr.cpp
-  ncbi_blast/str_util/ncbistr.cpp :
