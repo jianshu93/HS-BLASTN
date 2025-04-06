@@ -1,21 +1,14 @@
-Indroduction
-----------------------------
-
-The original source codes (version 0.0.5) are found in directory `v0.0.5`.
-
+## Indroduction
 HS-BLASTN is a Nucleotide-Nucleotide aligner that searches nucleotide queries against a large nucleotide database.
 It aims to speedup the NCBI-BLASTN (the default task, megablast).
 
 In this version of `HS-BLASTN`, we employ many ideas from `MECAT`. We no longer pursue produceing the same results as `BLASTN`, but finding the alignments having highest scores.
 
-Available
-------------------------------
+## Available
 
 HS-BLASTN is written in C and C++, open source and released under GPLv3.
 
-Download and Install
-------------------------------
-
+## Download and Install
 ```shell
  $ git clone https://github.com/chenying2016/queries.git
  $ cd hs-blastn-src
@@ -23,8 +16,7 @@ Download and Install
  ```
 After compilation, the executable file `hs-blastn` is found is `queries/Linux-amd64/bin·.
 
-How to use
-------------------------------
+## How to use
 
  The tested queries can be downloaded from 
  https://github.com/chenying2016/experimental_queries. You should download it by klicking the "Download ZIP" button 
@@ -96,12 +88,10 @@ HS-BLASTN Workflow
 * Align each `Qi` to each `Sj`.
 * Delete the `hbndb` directory. If you want to keep this directory after the search, add the `-keep_db` flag to the `hs-blastn` command.
  
-Citation
+## Citation
 --------------------------
 
   Ying Chen, Weicai Ye, Yongdong Zhang, Yuesheng Xu. (2015) High speed BLASTN: an accelerated MegaBLAST search tool. Nucleic Acids Res., 43(16):7762-8.
  
-Contact
---------------------------
-
+## Contact
  chenying2016@gmail.com
