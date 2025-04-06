@@ -433,7 +433,7 @@ s_find_candidates_for_one_context(PrimerMapHitFindData* data, PrimerMapSeed* sa,
         //HBN_LOG("%d\tqoff = %d, soff = %d", i, cs.qoff, cs.soff);
         kv_push(ChainSeed, data->chain->fwd_seeds, cs);
     }
-    sort_chain_seed_soff_lt(kv_size(data->chain->fwd_seeds), kv_data(data->chain->fwd_seeds));
+    //sort_chain_seed_soff_lt(kv_size(data->chain->fwd_seeds), kv_data(data->chain->fwd_seeds));
 
     kv_dinit(vec_init_hit, hit_list);
     kv_dinit(vec_chain_seed, hit_seed_list);
