@@ -15,6 +15,13 @@ HS-BLASTN is written in C and C++, open source and released under GPLv3.
  $ cd hs-blastn-src
  $ make
  ```
+### MacOS (via Homebrew: https://brew.sh)
+```bash
+brew tap jianshu93/hs-blastn
+brew update
+brew install hs-blastn
+
+```
  ### MacOS
 ```shell
  $ git clone https://github.com/chenying2016/queries.git
